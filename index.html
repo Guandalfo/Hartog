@@ -129,14 +129,14 @@
 <div class="bar">
     <input type="text" placeholder="Waar ben je naar op zoek?"><button type="submit"><i class="fa fa-search"></i></button>
 </div>
-<section>
+<section class="slider_section">
     <div class="slider">
         <a href="new-page.html">
-        <img src="img/img1.jpg" alt="Slider">
+        <img src="img/img1.png" alt="Slider">
             <p>Balance</p>
         </a>
         <a href="new-page.html">
-        <img src="img/img2.jpg" alt="Slider">
+        <img src="img/img2.png" alt="Slider">
             <p>Energy Classic</p>
         </a>
         <a href="new-page.html">
@@ -144,19 +144,19 @@
             <p>Energy Special</p>
         </a>
             <a href="new-page.html">
-        <img src="img/img4.jpg" alt="Slider">
+        <img src="img/img4.png" alt="Slider">
                 <p>Concept</p>
             </a>
                 <a href="new-page.html">
-        <img src="img/img5.jpg" alt="Slider">
+        <img src="img/img5.png" alt="Slider">
                     <p>Luzernebrok</p>
                 </a>
                     <a href="new-page.html">
-        <img src="img/img6.jpg" alt="Slider">
+        <img src="img/img6.png" alt="Slider">
                         <p>Grasbrok</p>
                     </a>
                         <a href="new-page.html">
-        <img src="img/img7.jpg" alt="Slider">
+        <img src="img/img7.png" alt="Slider">
                             <p>Compact Gras</p>
                         </a>
                             <a href="new-page.html">
@@ -164,15 +164,54 @@
                                 <p>5* Complete Care Senior</p>
                             </a>
                                 <a href="new-page.html">
-        <img src="img/img9.jpg" alt="Slider">
+        <img src="img/img9.png" alt="Slider">
                                     <p>Luzerne-Mix</p>
                                 </a>
                                     <a href="new-page.html">
-        <img src="img/img10.jpg" alt="Slider">
+        <img src="img/img10.png" alt="Slider">
                                         <p>Gras-Mix</p>
                                     </a>
+    </div><a href="new-page.html"><div class="voeradviesImg"><img  src="img/Voeradvies-paarden.jpg" alt="Voeradvies"></a></div>
+</section>
+<section class="columns">
+    <div class="hartogCol1">
+        <a href="new-page.html">
+        <img src="img/hartog_foto.jpg" alt="hartog foto">
+        <h1>KNHS en Hartog breiden partnership uit</h1>
+        <p>ERMELO (KNHS) – De KNHS en Hartog breiden hun partnership verder uit. Hartog sponsort al sinds het ontstaan van de KNHS in 2002 de KNHS-Hartog Trophy.</p><p> Door de jaren heen is deze competitie uitgegroeid tot een zeer gewaardeerde en populaire rijstijlcompetitie voor pony’s in de discipline springen.</p>
+        </a>
+    </div>
+    <div class="hartogCol2">
+        <a href="new-page.html">
+        <img src="img/hartog_corona.jpg" alt="hartog corona">
+        <h1>Coronavirus</h1>
+        <p>Hartog volgt de ontwikkeling aangaande de gevolgen en de daarbij horende maatregelen aangaande het Coronavirus nauwlettend.</p><p>Gezien de laatste ontwikkelingen en richtlijnen van het RIVM en de Nederlandse overheid om de verspreiding van het Coronavirus te voorkomen zullen de buitendienst en kantoormedewerkers van Hartog zo veel als mogelijk vanuit huis werken.</p>
+        </a>
+    </div>
+    <div class="hartogCol3">
+        <a href="new-page.html">
+        <img src="img/Hartog_kippen.jpeg" alt="hartog stage">
+        <h1>SLuzerne voor kippen</h1>
+        <p>Inmiddels is luzerne als ruwvoer niet meer weg te denken uit de pluimveehouderij. De pluimvee sector weet de weg naar onze Compact Luzerne en Compact Luzerne EKO te vinden </p><p> om afleiding en structuur aan hun kippen te bieden. Lees hier alles over Luzerne voor vleeskuikens en kwaliteits ruwvoer voor gezond pluimvee.</p>
+        </a>
     </div>
 </section>
+<div class="bar1">
+    <div class="barDiv">
+    <h1>Verkooppunten</h1><i class="fas fa-map-marker-alt"></i>
+    <select name="land" id="land">
+            <option value="nederland">Nederland</option>
+            <option value="België">België</option>
+        <option value="Duitsland">Deutschland</option>
+        <option value="Oostenrijk">Österreich</option>
+        <option value="Frankrijk">France</option>
+    </select>
+<input type="text" placeholder="Adres, Plaats of Postcode">
+    <button type="submit">Zoeken</button>
+    </div>
+</div>
+<footer>
+</footer>
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
@@ -182,9 +221,9 @@
             slidesToShow: 3,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 2000,
-            nextArrow:false,
-            prevArrow:false,
+            autoplaySpeed: 1000,
+            nextArrow: '<i class="fas fa-angle-right"></i>',
+            prevArrow: '<i class="fas fa-angle-left"></i>',
     });
     });
 </script>
