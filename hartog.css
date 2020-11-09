@@ -430,6 +430,7 @@ header{
     box-shadow: 1px 2px 8px 1px gray;
 }
 .columns .hartogCol1{
+    transition: transform .2s;
     background-color:#E6DFCF;
     height:520px;
     padding:15px;
@@ -441,6 +442,18 @@ header{
     position:relative;
     width:35%;
 }
+.columns .hartogCol1:hover{
+    transform:scale(1.1);
+}
+
+.columns .hartogCol2:hover{
+    transform:scale(1.1);
+}
+
+.columns .hartogCol3:hover{
+    transform:scale(1.1);
+}
+
 .columns .hartogCol1 p, .hartogCol3 p{
     font-weight:500;
     padding-top:10px;
@@ -458,6 +471,7 @@ header{
     font-size:20px;
 }
 .columns .hartogCol2{
+    transition: transform .2s;
     text-align:left;
     padding:15px;
     background-color:#E6DFCF;
@@ -475,6 +489,7 @@ header{
 }
 
 .columns .hartogCol3{
+    transition: transform .2s;
     text-align:left;
     background-color:#E6DFCF;
     padding:15px;
