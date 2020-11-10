@@ -42,12 +42,28 @@ color:#FFCD00;
 .dropdown i{
     padding-right:15px;
 }
+.drp-title{
+    padding:5px 15px 5px 15px;
+    background-color:rgba(255,205,0,0.3);
+    right:42%;
+    text-align:center;
+    color:black;
+    font-size:28px;
+    text-decoration:none;
+    font-weight:600;
+    position:absolute;
+    top:20px;
+    box-shadow: 3px 2px 8px 1px gray;
+}
+.drp-title:hover{
+    background-color:rgba(0,157,87,0.3);
+}
 .dropdown-content1, .dropdown-content2, .dropdown-content3, .dropdown-content4 {
     border-right:15px solid #1C1C1C;
+    font-family:'Montserrat', sans-serif;
     border-left:15px solid #1C1C1C;
     width:800px;
-    height:420px;
-    text-align:left;
+    height:500px;
     display: none;
     position: absolute;
     background-color:white;
@@ -78,14 +94,19 @@ color:#FFCD00;
     text-decoration-line:underline;
 }
 .dropdown-content1 .col1{
-    padding-top:20px;
+    position:absolute;
+    top:16%;
+    text-align:left;
     float:left;
-    padding-left:100px;
+    padding-left:45px;
+    width:40%;
 }
 .dropdown-content1 .col2{
-    padding-top:20px;
-    padding-right:100px;
-    float:right;
+    position:absolute;
+    top:16%;
+    text-align:left;
+    width:40%;
+    right:0;
 }
 .dropdown-content1 .drp-text{
     font-family:'Montserrat', sans-serif;
@@ -109,28 +130,30 @@ color:#FFCD00;
     display: block;
 }
 .fa-shopping-cart{
-    border-radius:6px;
+    border:1px solid #1C1C1C;
+    box-shadow: 2px 2px 5px 1px gray;
     margin-left:15px;
     background-color:#009D57;
     padding:8px 13px 8px 13px;
     color:white;
 }
 .fa-shopping-cart:hover{
-    box-shadow: 2px 2px 5px 1px #1C1C1C;
+    box-shadow: 2px 2px 5px 1px gray;
     background-color:#FFCD00;
 }
 .links a{
     text-decoration:none;
 }
 .fa-user{
-    border-radius:6px;
+    border:1px solid #1C1C1C;
+    box-shadow: 2px 2px 5px 1px gray;
     background-color:#009D57;
     padding:8px 13px 8px 13px;
     color:white;
 }
 .fa-user:hover{
     background-color:#FFCD00;
-    box-shadow: 2px 2px 5px 1px #1C1C1C;
+    box-shadow: 2px 2px 5px 1px gray;
 }
 .links{
     margin-left:40px;
@@ -169,7 +192,6 @@ header img{
 }
 .overlay1, .overlay2{
     margin-top:-5px;
-    padding-top:150px;
     padding-left:50px;
     opacity:0;
     width:100%;
@@ -182,10 +204,14 @@ header img{
     z-index:2;
     font-family:'Montserrat', sans-serif;
 }
+.ovlTxt{
+    width:70%;
+    top:44%;
+    position:absolute;
+}
 .overlay1 p, .overlay2 p{
     text-decoration:none;
     color:black;
-    width:70%;
     font-size:19px;
 }
 
@@ -216,15 +242,15 @@ header{
 }
 .headertxt{
     transition: transform 0.5s ease-out;
-    height:250px;
+    height:auto;
     border-radius:10px;
     font-family:'Montserrat', sans-serif;
-    padding:10px;
+    padding:10px 10px 40px 10px;
     z-index:2;
     left:35%;
     position:absolute;
     top:38%;
-    width:30%;
+    width:29%;
     text-align:center;
     background-color:rgba(225,225,225,0.9);
     box-shadow: 3px 2px 8px 1px #1C1C1C;
@@ -284,13 +310,12 @@ header{
     box-shadow: 5px 2px 8px 1px #1C1C1C;
 }
 .slider{
-    top:50%;
+    top:5px;
+    height:auto;
     position:relative;
     z-index:2;
-    padding-left:25px;
-    padding-right:5px;
-    width:48%;
-    left:5%;
+    width:50%;
+    margin-left:40px;
     background-color:white;
     box-shadow: 1px 2px 8px 1px #1C1C1C;
     display:inline-block;
@@ -301,17 +326,16 @@ header{
     transition: transform .2s;
 }
 .slider img{
+    margin:0 auto;
     padding-top:20px;
-    width:62%;
+    width:60%;
     height:auto;
-    padding-left:25px;
 }
 .slider a:hover{
     transform:scale(1.1);
 }
 .slider p{
-    padding-bottom:10px;
-    margin-right:60px;
+    margin-bottom:10px;
     font-size:20px;
     padding-top:15px;
     text-align:center;
@@ -346,16 +370,17 @@ header{
     right: 0;
 }
 .slider_section{
+    height:100%;
     background-color:rgba(255,205,0,0.4);
     padding-top:50px;
     padding-bottom:50px;
     width:100%;
-    height:auto;
 }
 .voeradviesImg{
+    vertical-align:top;
     height:auto;
-    width:26%;
-    left:20%;
+    width:31%;
+    left:15%;
     z-index:2;
     position:relative;
     display:inline-block;
@@ -420,7 +445,7 @@ header{
     font-size:15px;
     background-image:url("img/bckg.jpg");
     font-family:'Montserrat', sans-serif;
-    height:auto;
+    height:100%;
     padding-top:70px;
     text-align:center;
     position:relative;
