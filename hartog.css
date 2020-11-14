@@ -94,11 +94,9 @@ nav .talen li{
     position:absolute;
     top:20px;
 }
-.drp-title p{
-    transition:transform 0.2s ease;
-}
 .drp-title p:hover{
-    transform:scale(0.9);
+    text-decoration-line:underline;
+    text-decoration-color:white;
 }
 .dropdown-content1, .dropdown-content2, .dropdown-content3, .dropdown-content4 {
     border-right:15px solid #45594E;
@@ -173,27 +171,29 @@ nav .talen li{
     display: block;
 }
 .fa-shopping-cart{
+    box-shadow:1px 2px 5px 2px gray;
     margin-left:15px;
-    background-color:#45594E;
+    background-color:#CDD099;
     padding:12px 12px 10px 10px;
     color:white;
     border-radius:90px;
 }
 .fa-shopping-cart:hover{
-    background-color:#292E2B;
+    background-color:#547060;
 }
 .links a{
     padding-top:10px;
     text-decoration:none;
 }
 .fa-user{
+    box-shadow:1px 2px 5px 2px gray;
     border-radius:90px;
-    background-color:#45594E;
+    background-color:#CDD099;
     padding:10px 12px 10px 12px;
     color:white;
 }
 .fa-user:hover{
-    background-color:#292E2B;
+    background-color:#547060;
 }
 .links{
     margin-left:30px;
@@ -221,11 +221,12 @@ nav .talen li{
     position:relative;
     display:inline-block;
     width:50%;
-    margin-top:155px;
+    margin-top:160px;
     vertical-align:top;
 }
 header img{
-    height:auto;
+    vertical-align:bottom;
+    height:100%;
     width:100%;
     z-index:1;
 
@@ -291,7 +292,7 @@ header{
     top:41%;
     left:35%;
     text-align:center;
-    background-color:rgba(225,225,225,0.9);
+    background-color:rgba(225,225,225,0.8);
     box-shadow: 3px 2px 8px 1px #1C1C1C;
 }
 .headertxt h1{
@@ -313,7 +314,7 @@ header{
     padding-left:5px;
 }
 .bar{
-    border-top:5px solid black;
+
     height:120px;
     background-image:url("img/bckg.png");
     text-align:center;
@@ -322,7 +323,6 @@ header{
     color:#1C1C1C;
     z-index:2;
     box-shadow: 1px 2px 10px 3px #1C1C1C;
-    margin-top:-5px;
 }
 .bar input[type=text]{
     border:1px solid #1C1C1C;
@@ -331,7 +331,7 @@ header{
     border-radius:10px 0 0 10px;
     text-align:center;
     font-size:20px;
-    margin-top:35px;
+    margin-top:40px;
     width:650px;
     height:40px;
     background-color:white;
@@ -578,6 +578,7 @@ header{
 }
 .columns .hartogCol1 img, .hartogCol3 img{
     width:440px;
+    outline:5px solid #45594E;
 }
 
 .columns .hartogCol3{
