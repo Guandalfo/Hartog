@@ -228,17 +228,18 @@ header{
 }
 .headerOverlay img{
     width:100%;
-    opacity:90%;
 }
 .headerTxt{
     position:absolute;
     top:40%;
-    left:10%;
+    left:6%;
     color:white;
 }
 .headerTxt h1{
+    border-bottom:6px solid white;
+    margin-bottom:20px;
     font-weight:900;
-    padding-bottom:10px;
+    padding-bottom:5px;
     font-size:75px;
 }
 .headerTxt p{
@@ -347,7 +348,7 @@ header{
     left:0;
     text-align:center;
     transition:opacity 0.2s ease;
-    margin-top:120px;
+    margin-top:150px;
     font-size:30px;
     color:white;
     background-color:rgba(0,0,0,0.3);
@@ -355,7 +356,7 @@ header{
 }
 
 .imgoverlay1 h1,.imgoverlay2 h1,.imgoverlay3 h1,.imgoverlay4 h1{
-    margin-top:120px;
+    margin-top:150px;
     padding:10px;
     color:white;
     font-size:30px;
@@ -473,7 +474,7 @@ header{
     padding-top:30px;
     position:relative;
     text-align:center;
-    z-index:2;
+    z-index:3;
     height:550px;
     width:100%;
     box-shadow: 1px 2px 8px 5px #1C1C1C;
