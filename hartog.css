@@ -53,8 +53,8 @@ nav .talen li{
      width:100%;
     text-align:center;
     background-color:white;
-    padding-top:20px;
-     padding-bottom:15px;
+    padding-top:15px;
+     padding-bottom:10px;
      border-bottom:20px solid #547060;
 
 }
@@ -211,111 +211,45 @@ nav .talen li{
 }
 .touw{
     position:absolute;
-    top:118px;
+    top:105px;
     width:100%;
     z-index:3;
     height:83px;
 
 }
-.imgheader1, .imgheader2{
-    position:relative;
-    display:inline-block;
-    width:50%;
-    margin-top:160px;
-    vertical-align:top;
-}
-header img{
-    vertical-align:bottom;
-    height:100%;
-    width:100%;
-    z-index:1;
-
-}
-.overlay1, .overlay2{
-    padding-left:50px;
-    opacity:0;
-    width:100%;
-    height:100%;
-    left:0;
-    top:0;
-    right:0;
-    background-color:rgba(0,0,0, 0.6);
-    position:absolute;
-    z-index:2;
-    font-family:'Montserrat', sans-serif;
-}
-.ovlTxt{
-    padding:10px;
-    color:white;
-    width:70%;
-    top:38%;
-    vertical-align:middle;
-    position:absolute;
-}
-.overlay1 p, .overlay2 p{
-    text-decoration:none;
-    font-size:19px;
-}
-
-.overlay1 h1, .overlay2 h1{
-    font-size:25px;
-    text-decoration:none;
-    font-weight:600;
-}
-
-.imgheader1:hover  .overlay1{
-    opacity:1;
-    transition: .5s ease;
-}
-.imgheader2:hover  .overlay2{
-    opacity:1;
-    transition: .5s ease;
-}
-.imgheader1:hover ~ .headertxt{
-    transform: translate(90%, 0);
-}
-.imgheader2:hover ~ .headertxt{
-    transform: translate(-90%, 0);
-}
 header{
-    position:relative;
+    margin-top:80px;
     width:100%;
-}
-.headertxt{
-    transition: transform 0.5s ease-out;
-    border-radius:10px;
     font-family:'Montserrat', sans-serif;
-    padding:10px 10px 40px 10px;
-    z-index:2;
+}
+.headerOverlay{
+    width:100%;
+    position:relative;
+}
+.headerOverlay img{
+    width:100%;
+    opacity:90%;
+}
+.headerTxt{
     position:absolute;
-    width:30%;
-    top:41%;
-    left:35%;
-    text-align:center;
-    background-color:rgba(225,225,225,0.8);
-    box-shadow: 3px 2px 8px 1px #1C1C1C;
+    top:40%;
+    left:10%;
+    color:white;
 }
-.headertxt h1{
-    width:100%;
-    font-size:31px;
+.headerTxt h1{
+    font-weight:900;
     padding-bottom:10px;
-    padding-top:15px;
+    font-size:75px;
 }
-.headertxt p{
+.headerTxt p{
+    width:500px;
     font-weight:500;
-    width:100%;
-    padding-top:6px;
-    padding-bottom:6px;
-    font-size:20px;
-
-}
-.headertxt i{
-    color:#009D57;
-    padding-left:5px;
+    font-size:25px;
 }
 .bar{
-
-    height:120px;
+    position:relative;
+    margin-top:-5px;
+    height:90px;
     background-image:url("img/bckg.png");
     text-align:center;
     width:100%;
@@ -331,7 +265,7 @@ header{
     border-radius:10px 0 0 10px;
     text-align:center;
     font-size:20px;
-    margin-top:40px;
+    margin-top:25px;
     width:650px;
     height:40px;
     background-color:white;
@@ -349,6 +283,129 @@ header{
     background-color:white;
     box-shadow: 5px 2px 8px 1px #1C1C1C;
 }
+.specialiteiten{
+    padding-top:50px;
+    padding-bottom:50px;
+    z-index:1;
+    position:relative;
+    text-align:center;
+    background-color:#9db089;
+    font-family:'Montserrat', sans-serif;
+}
+.textcontainer{
+    width:400px;
+    text-align:center;
+    position:relative;
+    margin: 0 auto 5px;
+}
+.textcontainer img{
+    width:100%;
+    height:auto;
+}
+.vakkenH1{
+    top:16%;
+    left:6%;
+    font-size:45px;
+    color:white;
+    font-weight:900;
+    position:absolute;
+    border:2px dashed #dbdea2;
+    padding:20px;
+    border-radius:30px;
+}
+.subsection1,.subsection2{
+    display:inline-block;
+    margin-right:35px;
+    margin-left:35px;
+    vertical-align:top;
+}
+.vak1 img,.vak2 img,.vak3 img,.vak4 img{
+    width:100%;
+    outline:1px solid #547060;
+    height:auto;
+    display:block;
+    border:10px solid white;
+}
+.specialiteiten a{
+    text-decoration:none;
+}
+.vak1,.vak2,.vak3,.vak4{
+    border:10px solid #547060;
+    position:relative;
+    width:550px;
+    margin:50px;
+    box-shadow: 5px 2px 8px 1px #1C1C1C;
+    outline:3px solid #45594E;
+}
+
+.vakh1{
+    position:absolute;
+    vertical-align:top;
+    z-index:2;
+    width:100%;
+    top:0;
+    left:0;
+    text-align:center;
+    transition:opacity 0.2s ease;
+    margin-top:120px;
+    font-size:30px;
+    color:white;
+    background-color:rgba(0,0,0,0.3);
+    padding:10px;
+}
+
+.imgoverlay1 h1,.imgoverlay2 h1,.imgoverlay3 h1,.imgoverlay4 h1{
+    margin-top:120px;
+    padding:10px;
+    color:white;
+    font-size:30px;
+}
+.imgoverlay1 p,.imgoverlay2 p,.imgoverlay3 p,.imgoverlay4 p{
+    width:350px;
+    margin:0 auto;
+    font-size:18px;
+    color:white;
+}
+.imgoverlay1,.imgoverlay2,.imgoverlay3,.imgoverlay4{
+    vertical-align:top;
+    top:0;
+    left:0;
+    right:0;
+    z-index:2;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,0.4);
+    opacity:0;
+    position:absolute;
+    transition:opacity 0.2s ease;
+}
+.vak1:hover .imgoverlay1{
+    opacity:100%;
+}
+.vak2:hover .imgoverlay2{
+    opacity:100%;
+}
+.vak3:hover .imgoverlay3{
+    opacity:100%;
+}
+.vak4:hover .imgoverlay4{
+    opacity:100%;
+}
+
+
+.vak1:hover .vakh1{
+    opacity:0;
+}
+.vak2:hover .vakh1{
+    opacity:0;
+}
+.vak3:hover .vakh1{
+    opacity:0;
+}
+.vak4:hover .vakh1{
+    opacity:0;
+}
+
 .slider{
     margin-right:150px;
     margin-top:60px;
@@ -413,12 +470,14 @@ header{
     right: 0;
 }
 .slider_section{
+    padding-top:30px;
     position:relative;
     text-align:center;
-    z-index:1;
-    background-color:rgba(129, 138, 0, 0.4);
-    height:500px;
+    z-index:2;
+    height:550px;
     width:100%;
+    box-shadow: 1px 2px 8px 5px #1C1C1C;
+    background-image:url("img/bckg.png");
 }
 .voeradviesImg{
     margin-left:50px;
@@ -505,7 +564,7 @@ header{
 .columns{
     z-index:2;
     font-size:15px;
-    background-image:url("img/bckg.png");
+    background-color:#dbdea2;
     font-family:'Montserrat', sans-serif;
     height:100%;
     padding-top:70px;
