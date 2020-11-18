@@ -228,12 +228,40 @@ header{
 }
 .headerOverlay img{
     width:100%;
+    opacity:95%;
 }
 .headerTxt{
     position:absolute;
-    top:40%;
+    top:35%;
     left:6%;
     color:white;
+}
+.hoverOverlay{
+    position:absolute;
+    right:6%;
+    top:38%;
+    color:white;
+    opacity:0;
+    transition:opacity 0.4s ease;
+}
+.hoverOverlay h1{
+    font-size:55px;
+    padding-bottom:15px;
+}
+.hoverOverlay p{
+    font-weight:400;
+    font-size:25px;
+    padding-bottom:5px;
+}
+.hoverOverlay i{
+    padding-right:7px;
+    color:#009D57;
+}
+.headerTxt:hover ~ .hoverOverlay{
+    opacity:100%;
+}
+.headerTxt:hover{
+    cursor:pointer;
 }
 .headerTxt h1{
     border-bottom:6px solid white;
@@ -305,7 +333,7 @@ header{
 }
 .vakkenH1{
     top:16%;
-    left:6%;
+    left:7%;
     font-size:45px;
     color:white;
     font-weight:900;
